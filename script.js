@@ -1,7 +1,6 @@
 var button = document.getElementById("enter");
 var input = document.getElementById("userinput");
 var ul = document.getElementById("list-items");
-//var del = document.getElementsByClassName("done");
 
 function inputLength() {
   return input.value.length;
@@ -32,6 +31,5 @@ function test(id) {
   const liItem = document.getElementById(id);
   liItem.style.textDecoration = "line-through";
 }
-// button.addEventListener("click", addOnClick);
 
 input.addEventListener("keypress", addOnEnter);
